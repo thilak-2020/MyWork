@@ -1,0 +1,53 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "react boilerplate with material-ui",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server  --open"
+  },
+  "keywords": [
+    "react",
+    "material-ui"
+  ],
+  "author": "jishnu koottala",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/styles": "^4.11.4",
+    "axios": "^0.21.3",
+    "core-js": "^3.17.2",
+    "currency-symbol-map": "^5.0.1",
+    "dotenv": "^6.1.0",
+    "google-map-react": "^2.1.10",
+    "react": "^16.6.3",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^16.6.3",
+    "react-number-format": "^4.7.3",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "^4.3.1",
+    "react-select": "^4.3.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "regenerator-runtime": "^0.13.9",
+    "string-strip-html": "^8.3.0",
+    "webfontloader": "^1.6.28",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "dotenv-webpack": "^1.5.7",
+    "node-sass": "^4.10.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
